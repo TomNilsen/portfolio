@@ -148,22 +148,25 @@ a {
   -webkit-clip-path: circle(47.9% at 50% 50%);
           clip-path: circle(47.9% at 50% 50%);
 }
-.header-container div p {
+.header-container article {
+  width: 30%;
+}
+.header-container article p {
   margin: 1rem;
 }
-.header-container div ul li {
+.header-container article ul li {
   display: flex;
   flex-direction: row;
   margin: 0rem 0rem 1rem 1rem;
 }
-.header-container div ul li i {
+.header-container article ul li i {
   margin-right: 1rem;
 }
-.header-container div ul li p {
+.header-container article ul li p {
   margin: 0rem;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.header-container div ul li p span {
+.header-container article ul li p span {
   color: darkgray;
   font-style: italic;
 }

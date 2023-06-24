@@ -6,6 +6,11 @@ for (let i = 0; i < projects.length; i++) {
   createCard(projects[i]);
 }
 
+const divs = document.querySelectorAll("div");
+for (let i = 0; i < divs.length; i++) {
+  divs[i].setAttribute("aria-hidden", "true");
+}
+
 function createCard(project) {
   const card = document.createElement("article");
   card.className = "card";
